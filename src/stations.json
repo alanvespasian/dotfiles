@@ -1,0 +1,32 @@
+{
+  "countries": [
+    {
+      "name": "United States",
+      "continent": "North America",
+      "stations": [
+        {
+          "name": "KICK 92.3 FM",
+          "url": "https://ice7.securenetsystems.net/KADIAM"
+        },
+        {
+          "name": "KZYN ZION 104.1 FM",
+          "url": "https://ice24.securenetsystems.net/KZYN"
+        }
+      ]
+    },
+    {
+      "name": "Canada",
+      "continent": "North America",
+      "stations": [
+        {
+          "name": "CFRT 107.3 FM",
+          "url": "https://stream2.statsradio.com:8058/stream"
+        },
+        {
+          "name": "Radio Anticosti 90.5 FM",
+          "url": "https://stream2.statsradio.com:8126/stream"
+        }
+      ]
+    }
+  ]
+}
