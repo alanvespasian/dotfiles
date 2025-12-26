@@ -2,7 +2,7 @@ vim.o.expandtab = true
 vim.o.tabstop = 2
 vim.o.softtabstop = 2
 vim.o.shiftwidth = 2
-vim.g.mapleader = " "
+vim.g.mapleader = " " 
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -19,10 +19,9 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	{import = "rome.modules.lsp"},
-	{import = "rome.library"},
-	{import = "rome.addons.QoL"},
-	{import = "rome.addons.UI"}
+	{import = "bin"},
+  {import = "bin.pkg"},
+	{import = "share"}
 }, {
 	checker = {
 		enabled = true,
